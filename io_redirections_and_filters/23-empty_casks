@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aR | cut -f 1 | tail --lines=+4
+find -empty -printf "%f\n"
